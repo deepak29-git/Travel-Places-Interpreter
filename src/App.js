@@ -138,10 +138,12 @@ var emojiDictionary = {
 export default function App() {
   const [meaning, setMeaning] = useState("");
   var showEmoji = Object.keys(emojiDictionary);
+
   function ClickHandler(item) {
     var newMeaning = emojiDictionary[item];
     setMeaning(newMeaning);
   }
+
   function changeHandler(e) {
     var targetValue = e.target.value;
     var newMeaning = emojiDictionary[targetValue];
@@ -151,6 +153,7 @@ export default function App() {
     }
     setMeaning(newMeaning);
   }
+
   return (
     <div className="App">
       <h1>Travel & Places Interpreter</h1>
