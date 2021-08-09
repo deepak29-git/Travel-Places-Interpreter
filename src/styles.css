@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200;1,300;1,400&family=Ubuntu:ital,wght@1,300&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+input {
+  padding: 0.5rem;
+  width: 75%;
+  outline-color: lightblue;
+}
