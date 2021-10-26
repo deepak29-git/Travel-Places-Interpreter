@@ -4,6 +4,7 @@ import "./styles.css";
 var emojiDictionary = {
   "🚣": "Person Rowing Boat",
   "🗾": "Map of Japan",
+  "🚣": "deepak",
   "⛰️": "Mountain",
   "🌋": "Volcano",
   "🗻": "Mount Fuji",
