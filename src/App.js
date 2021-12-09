@@ -4,7 +4,6 @@ import "./styles.css";
 var emojiDictionary = {
   "🚣": "Person Rowing Boat",
   "🗾": "Map of Japan",
-  "🚣": "deepak",
   "⛰️": "Mountain",
   "🌋": "Volcano",
   "🗻": "Mount Fuji",
@@ -164,10 +163,10 @@ export default function App() {
       ></input>
       <h4>Please click on emoji and show the meaning</h4>
       <h2 style={{ color: "blue", fontWeight: "bold" }}>{meaning}</h2>
-      {showEmoji.map((item) => {
+      {showEmoji.map((item, index) => {
         return (
           <span
-            key={item}
+            key={index}
             style={{ padding: "0.7rem", fontSize: "2rem", cursor: "pointer" }}
             onClick={() => ClickHandler(item)}
           >
